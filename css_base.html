@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* ---------- CSS Selectors ---------- */
+        /* 1 - tag selectors */
+        h1 {
+            background-color: darkblue;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            text-transform: uppercase;
+            box-shadow: 1px 1px 10px black;
+        }
+
+        mark {
+            background-color: rgb(208, 168, 246);
+            color: black;
+            font-size: 22px;
+            font-family: fantasy;
+            font-weight: lighter;
+        }
+
+        p {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        ins {
+            text-decoration: none;
+            border: 1px solid blueviolet;
+            padding: 2px;
+        }
+
+        del {
+            /* visibility: hidden; */
+            display: none;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is First HTML Page</h1>
+
+    <h3>With the world's largest web <mark>developer</mark> site.</h3>
+
+    <h2>
+        <abbr title="Hyper Text Markup Language">HTML</abbr>
+    </h2>
+    <p>The language for building web pages</p>
+    <p>Lorem <strong>ipsum dolor sit amet</strong>, consectetur adipiscing elit. Suspendisse in enim ac risus egestas ornare. Mauris ullamcorper, odio ut dignissim lobortis, elit sapien placerat ex, ac dapibus urna neque ut sem. Quisque porta, ligula sed sollicitudin tincidunt, sem lectus tristique purus, quis tempus sem justo quis turpis. Sed rhoncus consectetur urna, eget suscipit elit placerat non. Aliquam hendrerit orci quis auctor volutpat. In ullamcorper feugiat nisi sed porttitor.</p>
+
+    <address>Soborna 5a, Rivne Ukraine</address>
+
+    <p>Macintosh operation system is called <del>Mac OS X</del> <ins>macOS</ins></p>
+    <hr>
+
+    </p>
+        <strong>Tag mark:</strong> This is a <mark>highlited</mark> text!<br>
+        <strong>Tag dfn:</strong> <dfn>Programming language</dfn> - system of notation for writing computer
+        programs.<br>
+        <strong>Tag sub:</strong> Formula of water: H<sub>2</sub>O<br>
+        <strong>Tag sup:</strong> Pythagorean theorem: C<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup><br>
+        <strong>Tag var:</strong> description: <var>C</var> - hypotenuse being<br>
+        <strong>Tag samp:</strong> Try to find a solution: <samp>2 + 2 * 2</samp><br>
+        <strong>Tag kbd:</strong> Open command pallete shortcut: <kbd>Ctrl + Shift + P</kbd><br>
+        <strong>Tag code:</strong> for loop <code>&lt;html&gt; for (int i = 0; i &lt; 10; ++i) { ... }</code>
+    </p>
+
+    <div>
+        <img height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="HTML">
+    </div>
+        
+</body>
+</html>
