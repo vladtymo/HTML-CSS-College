@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        ul.custom {
+            list-style-type: circle;
+            /* padding-left: 0; */
+        }
+
+        ol {
+            list-style-type: lower-roman;
+            list-style-image: url(./images/musseum.png);
+        }
+    </style>
+</head>
+<body>
+    <h2>Product List</h2>
+    <p>iPhone X - 1200$</p>
+    <p>Marshall Major - 120$</p>
+    <p>Dison - 320$</p>
+    <p>Karcher WD5 - 310$</p>
+
+    <ul class="custom">
+        <li>iPhone X - 1200$</li>
+        <li>Marshall Major - 120$</li>
+        <li>Dison - 320$</li>
+        <li>Karcher WD5 - 310$</li>
+    </ul>
+
+    <ul>
+        <li>iPhone X - 1200$</li>
+        <li>Marshall Major - 120$</li>
+        <li>Dison - 320$
+            <ul>
+                <li>iPhone X - 1200$</li>
+                <li>Marshall Major - 120$</li>
+                <li>Dison - 320$</li>
+                <li>Karcher WD5 - 310$</li>
+            </ul>
+        </li>
+        <li>Karcher WD5 - 310$</li>
+    </ul>
+
+    <ol start="5">
+        <li>iPhone X - 1200$</li>
+        <li>Marshall Major - 120$</li>
+        <li value="10">Dison - 320$</li>
+        <li>Karcher WD5 - 310$</li>
+    </ol>
+</body>
+</html>
