@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            color: white;
+        }
+
+        caption {
+            text-align: right;
+            color: rgb(90, 90, 90);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        th,
+        td {
+            padding: 16px;
+        }
+
+        .first {
+            color: rgb(68, 68, 68);
+        }
+
+        thead {
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+        }
+
+        tbody .first {
+            text-align: left;
+        }
+
+        tfoot {
+            border-top: 1px solid white;
+            text-transform: uppercase;
+        }
+
+        span {
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            line-height: 25px;
+            font-weight: bold;
+        }
+
+        .col-1 {
+            background-color: #dddddd;
+            width: auto;
+        }
+
+        .col-2 {
+            background-color: #17d0d3;
+            width: 17%;
+        }
+
+        .col-3 {
+            background-color: #8ac149;
+            width: 17%;
+        }
+
+        .col-4 {
+            background-color: #feca28;
+            width: 17%;
+        }
+
+        .col-5 {
+            background-color: #f44236;
+            width: 17%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Title Table</caption>
+        <colgroup>
+            <col class="col-1">
+            <col class="col-2">
+            <col class="col-3">
+            <col class="col-4">
+            <col class="col-5">
+        </colgroup>
+
+        <!-- emmet: (tr>td*5)*8 -->
+        <thead>
+            <tr>
+                <th class="first">Specification</th>
+                <th>Free</th>
+                <th>Basic</th>
+                <th>Standart</th>
+                <th>Premium</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th class="first">Price</th>
+                <th>$ 0.00</th>
+                <th>$ 9.99</th>
+                <th>$ 19.99</th>
+                <th>$ 29.99</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td class="first">Lorem ipsum dolor</td>
+                <td><span>+</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td class="first">Ratione deserunt modi</td>
+                <td><span>+</span></td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+                <td><span>-</span></td>
+            </tr>
+            <tr>
+                <td class="first">Vel maiores odio</td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td class="first">Minus vel aperiam natus</td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td class="first">Provid minima sapiente</td>
+                <td><span>+</span></td>
+                <td><span>-</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+            <tr>
+                <td class="first">Eveniet eaque excepturi</td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+                <td><span>+</span></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

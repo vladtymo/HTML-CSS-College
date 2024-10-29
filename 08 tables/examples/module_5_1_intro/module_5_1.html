@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            border-spacing: 10px;
+            background-image: url(./bg_1.jpg);
+            empty-cells: hide;
+
+            width: 100%;
+        }
+
+        th,
+        td {
+            background-image: url(bg_2.jpg);
+        }
+
+        th {
+            border: 1px solid red;
+        }
+
+        td {
+            border: 1px solid blue;
+        }
+
+        /* .space {
+            height: 30px;
+        } */
+
+        .center {
+            width: 30vw;
+            height: 20vh;
+            text-align: right;
+            vertical-align: bottom;
+            background-image: url(bg_3.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- Table Row -->
+        <tr>
+            <!-- Table Head -->
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+
+        <!-- <tr class="space"></tr> -->
+        <tr>
+            <!-- Table Data -->
+            <td>Lorem ipsum dolor.</td>
+            <td class="center">Lorem ipsum dolor.</td>
+            <td>Lorem ipsum dolor.</td>
+        </tr>
+
+        <tr>
+            <td></td><!-- empty cell -->
+            <td>Lorem.</td>
+            <td></td><!-- empty cell -->
+        </tr>
+    </table>
+</body>
+
+</html>
