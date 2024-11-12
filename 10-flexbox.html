@@ -20,7 +20,7 @@
             /* напрямок головної та поперечної осі (row) */
             flex-direction: row;
             /* вирівнювання елементів по головній осі (flex-start) */
-            /* justify-content: space-between; */
+            justify-content: flex-start;
             /* вирівнювання елементів по поперечеій осі (stretch) */
             align-items: center;
             /* встановлення переносу елементів при нехватці місця (nowrap) */
@@ -32,13 +32,13 @@
             /* flex-flow: row wrap; */
 
             /* відступ між елементами */
-            /* gap: 10px; */
+            gap: 10px;
         }
 
         .item {
             background-color: teal;
             padding: 30px;
-            /* width: 90px; */
+            width: 90px;
             color: white;
             text-align: center;
             border: 1px solid rgb(0, 107, 107);
@@ -46,7 +46,7 @@
             /* width/height = content + padding + border */
             /* box-sizing: border-box; */
 
-            flex-grow: 1;
+            /* flex-grow: 1; */
             /* flex-basis: 25%; */
 
             /* загальна властивість яка включає параметри: flex-grow || flex-shrink || flex-basis */
@@ -58,9 +58,9 @@
 
         .item:nth-child(1) {
             /* коефіцієнт розширенння елемента при нявності вільного місця (0) */
-            /* flex-grow: 1; */
+            /* flex-grow: 5; */
             /* коефіцієнт звуження елемента при нехватці місця (1) */
-            /* flex-shrink: 1; */
+            /* flex-shrink: 0; */
         }
 
         .item:nth-child(2) {
@@ -133,19 +133,19 @@
         <div class="item">Item 4</div>
     </div>
 
-    <h2>Row layout example</h2>
+    <!-- <h2>Row layout example</h2>
     <div class="row-3">
         <div>Block 1</div>
         <div>Block 2</div>
         <div>Block 3</div>
-    </div>
+    </div> -->
 
-    <h2>On Sides layout example</h2>
+    <!-- <h2>On Sides layout example</h2>
     <div class="on-side">
         <div>Block 1</div>
         <div class="move-right">Block 2</div>
         <div>Block 3</div>
-    </div>
+    </div> -->
 </body>
 
 </html>
