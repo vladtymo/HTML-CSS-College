@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            margin: 8px;
+        }
+
+        .container {
+            display: flex;
+            /* flex-direction: column; */
+            gap: 6px;
+            margin-bottom: 6px;
+        }
+
+        .block {
+            background-color: darkcyan;
+            color: white;
+            height: 40px;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            line-height: 40px;
+            flex-grow: 1;
+        }
+
+        .header {
+            background-color: blueviolet;
+            color: white;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+
+            display: flex;
+            gap: 10px;
+            /* justify-content: space-between; */
+        }
+
+        .move-right {
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">Main Content</div>
+        <div class="block">Main Content</div>
+        <div class="block">Main Content</div>
+    </div>
+    <div class="header">
+        <p>Home</p>
+        <p>About</p>
+        <p class="move-right">Account</p>
+    </div>
+
+</body>
+
+</html>
