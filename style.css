@@ -1,0 +1,120 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  /* Add this line */
+  top: 0;
+  /* Add this line */
+  width: 100%;
+  /* Add this line */
+  background-image: url("https://images.unsplash.com/photo-1724246744957-86b1465c687f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Add this line */
+  background-size: cover; /* Add this line */
+  background-repeat: no-repeat; /* Add this line */
+}
+
+.logo {
+  object-fit: cover;
+  height: 50px;
+}
+
+main {
+  padding: 20px;
+  /* Add padding to the top of the main section */
+  padding-top: 60px;
+  /* Adjust this value as needed */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+  margin-top: 0;
+}
+
+.toppings {
+  margin-top: 10px;
+}
+
+.topping {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.product img {
+  width: 100%;
+  /* Image will now take up the full width of its container */
+  height: auto;
+  /* Height will adjust automatically to maintain aspect ratio */
+  border-radius: 5px;
+  /* Match the border-radius of the product container */
+  margin-bottom: 10px;
+  /* Add some space between the image and the text */
+}
+
+/* Header Styling */
+header img {
+  width: 100%;
+  /* Stretch image to full width */
+  height: auto;
+  /* Set height to auto */
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Add padding to the bottom of the main section */
+  padding-bottom: 60px;
+  /* Adjust this value as needed */
+}
+
+/* About Section Styling (You'll need to add an about section to your HTML) */
+#about {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  margin-top: 0;
+}
