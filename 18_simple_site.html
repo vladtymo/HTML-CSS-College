@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(193, 183, 131);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px;
+            background-color: white;
+            color: #fff;
+        }
+
+        header .logo img {
+            position: absolute;
+            top: 8px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 6px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: rgb(108, 181, 153);
+        }
+
+        h1 {
+            color: rgb(84, 52, 61);
+            font-size: 52px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        h3 .color {
+            color: rgb(182, 120, 120)
+        }
+
+        .carousel {
+            height: 700px;
+            background-image: url("./images/tea_back.jpg");
+            background-size: cover;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .products>div {
+            background-color: rgb(207, 221, 178);
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(84, 52, 61);
+            color: white;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img height="100"
+                src="https://static.vecteezy.com/system/resources/thumbnails/049/015/377/small_2x/ceramic-tea-pot-and-cup-free-png.png"
+                alt="">
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">About</a>
+            <a href="#">Support</a>
+        </nav>
+    </header>
+    <section class="carousel">
+        <h3><span class="color">Welcome to</span> Tea House</h3>
+        <h1>Organic & Quality<br>Tea Production</h1>
+    </section>
+
+    <section>
+        <h2>Products</h2>
+        <div class="products">
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/042/654/894/small/ai-generated-green-tea-in-transparent-cup-with-fresh-leaves-free-png.png"
+                    alt="">
+                <h3>Lipton Super Tea for Kings</h3>
+                <p>Price: 24$</p>
+            </div>
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/042/654/894/small/ai-generated-green-tea-in-transparent-cup-with-fresh-leaves-free-png.png"
+                    alt="">
+                <h3>Lipton Super Tea for Kings</h3>
+                <p>Price: 24$</p>
+            </div>
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/042/654/894/small/ai-generated-green-tea-in-transparent-cup-with-fresh-leaves-free-png.png"
+                    alt="">
+                <h3>Lipton Super Tea for Kings</h3>
+                <p>Price: 24$</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>&copy; 2025 Tea House - Make by King Court in England</div>
+    </footer>
+</body>
+
+</html>
