@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Coffee Shop</h1>
+  </header>
+
+  <main>
+    <div class="product-list">
+      <div class="product" id="americano">
+        <img
+          src="https://images.unsplash.com/photo-1532004491497-ba35c367d634?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Americano">
+        <h2>Americano</h2>
+        <div class="toppings">
+          <div class="topping">
+            <input type="checkbox" id="americano-sugar" value="sugar">
+            <label for="americano-sugar">Sugar</label>
+          </div>
+          <div class="topping">
+            <input type="checkbox" id="americano-milk" value="milk">
+            <label for="americano-milk">Milk</label>
+          </div>
+        </div>
+        <div class="price">Price: $3.50</div>
+      </div>
+
+      <div class="product" id="cappuccino">
+        <img src="./images/image.jpg" alt="Cappuccino">
+        <h2>Cappuccino</h2>
+        <div class="toppings">
+          <div class="topping">
+            <input type="checkbox" id="cappuccino-cinnamon" value="cinnamon">
+            <label for="cappuccino-cinnamon">Cinnamon</label>
+          </div>
+          <div class="topping">
+            <input type="checkbox" id="cappuccino-whipped-cream" value="whipped-cream">
+            <label for="cappuccino-whipped-cream">Whipped Cream</label>
+          </div>
+        </div>
+        <div class="price">Price: $4.00</div>
+      </div>
+
+      <div class="product" id="latte">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1664894281528-a578e8156b9e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Latte">
+        <h2>Latte</h2>
+        <div class="toppings">
+          <div class="topping">
+            <input type="checkbox" id="latte-chocolate-syrup" value="chocolate-syrup">
+            <label for="latte-chocolate-syrup">Chocolate Syrup</label>
+          </div>
+          <div class="topping">
+            <input type="checkbox" id="latte-caramel-syrup" value="caramel-syrup">
+            <label for="latte-caramel-syrup">Caramel Syrup</label>
+          </div>
+        </div>
+        <div class="price">Price: $4.50</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Coffee Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
