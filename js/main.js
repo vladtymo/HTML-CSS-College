@@ -10,13 +10,13 @@ let user = {
     name: "Nazar",
     position: "Developer",
     salary: 3200,
+    isAdmin: true,
     account: null
 }
 
-
 console.log(numbers[20]); // undefined
 console.log("Salary:", user.salary);
-console.log("Bonus:", user.bonus);
+console.log("Bonus:", user.bonus); // undefined
 
 console.log("Array:", numbers);
 console.log(`Array: ${numbers}`);
@@ -34,6 +34,6 @@ else
 let result = confirm("Do you like JavaScript?");
 
 if (result)
-    alert("Great!");
+    console.log("YES!");
 else
-    alert("Too bad!");
+    console.log("NO!");
