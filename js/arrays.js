@@ -82,3 +82,4 @@ console.log("Reversed:", numbers.reverse()); // change original array
 // we can use method chain: method1().method2().method3().forEach() - X
 console.log(numbers.slice(3, 7).map((x) => x * x).filter(x => x > 2));
 
+document.write(`<h1>Color: ${colors[0]}</h1>`);
